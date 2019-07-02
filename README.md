@@ -1,6 +1,8 @@
 # imgimg
 
-Stitch two images side by side with optional captions
+_"A picture is worth a thousand words"_
+
+`imgimg.sh` helps you quickly communicate what changes you did to an image/website/document/whatever by stitching two images side by side with optional captions.
 
 ## Usage
 
