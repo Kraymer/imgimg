@@ -17,3 +17,7 @@ OPTIONS
 ## Example
 
 ![](https://raw.githubusercontent.com/Kraymer/public/master/Selection_802.png)
+
+## Requirements
+
+The wicked [ImageMagick](https://imagemagick.org) ! :tophat:
