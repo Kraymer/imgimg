@@ -4,7 +4,7 @@
 # Copyright kray.me 2019
 
 usage() {
-    echo "Usage: deltascreen.sh [OPTIONS] IMAGE_1 IMAGE2
+    echo "Usage: $0 [OPTIONS] IMAGE_1 IMAGE2
 Stitch two images and put captions below.
 
 OPTIONS
@@ -29,7 +29,7 @@ add_border_caption() {
 
 # $1 - first image
 # $1 - second image
-deltascreen() {
+imgimg() {
     local IMG1="${1}"
     local IMG2="${2}"
     IFS="," read -ra LABEL1 <<< "${LABELS}";
@@ -68,6 +68,6 @@ main() {
     IMG1=${@:$OPTIND:1}
     IMG2=${@:$OPTIND+1:1}
     
-    deltascreen "$@"
+    imgimg "$@"
 }
 main "$@"
